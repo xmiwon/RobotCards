@@ -28,7 +28,7 @@ const App = () => {
             <p>Loading..</p> :
             (
                 <div className="tc">
-                    <h1>RoboFriends</h1>
+                    <h1>Robot Cards</h1>
                     <SearchBox searchChange={onSearchChange} searchfield={searchfield} />
                     <Scroll>
                         <ErrorBoundry>
